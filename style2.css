@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('pacote-d013/imagens/fundo-madeira.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+}
+
+main{
+    justify-items: end;
+}
+
+.imagem1{
+    background-image: url('pacote-d013/imagens/frame-iphone.png');
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    
+    background-position: center center;
+    margin: auto;
+}
+
+.x {
+    background: rgba(0, 0, 0, 0) url('pacote-d013/imagens/logo-twitter.jpg') center center no-repeat scroll;
+    height: 52px;
+    width: 52px;
+    border-radius: 60%;
+    background-size: cover;
+    margin-right: 2vw;
+    margin-top: 2vh;
+    margin-left: 15px;
+    transition: 0.3s;
+}
+.instagram{
+    background: rgba(0, 0, 0, 0) url('pacote-d013/imagens/logo-instagram.jpg') center center no-repeat scroll;
+    height: 52px;
+    width: 52px;
+    border-radius: 60%;
+    background-size: cover;
+    margin-right: 2vw;
+    margin-top: 2vh;
+    margin-left: 15px;
+    transition: 0.3s ease; 
+}
+
+.youtube{
+    background: rgba(0, 0, 0, 0) url('pacote-d013/imagens/logo-youtube.jpg') center center no-repeat scroll;
+    height: 52px;
+    width: 52px;
+    border-radius: 60%;
+    background-size: cover;
+    margin-right: 2vw;
+    margin-top: 2vh;
+    margin-left: 15px;
+    transition: 0.3s;
+}
+
+.github{
+    background: rgba(0, 0, 0, 0) url('pacote-d013/imagens/logo-github.jpg') center center no-repeat scroll;
+    height: 52px;
+    width: 52px;
+    border-radius: 60%;
+    background-size: cover;
+    margin-right: 2vw;
+    margin-top: 2vh;
+    margin-left: 15px;
+    transition: 0.3s;
+}
+
+.home{
+    background: rgba(0, 0, 0, 0) url('pacote-d013/imagens/logo-home.jpg') center center no-repeat scroll;
+    height: 52px;
+    width: 52px;
+    border-radius: 60%;
+    background-size: cover;
+    margin-right: 2vw;
+    margin-top: 4vh;
+    margin-left: 15px;
+    transition: 0.3s;
+}
+
+aside{
+    
+    display: inline-block;
+    padding: 2px;
+}
+.x:hover {
+    height: 63px;
+    width: 63px;
+    box-shadow: 3px 3px 4px black;
+   
+    opacity: 0.9; 
+}
+
+.youtube:hover {
+    height: 63px;
+    width: 63px;
+    box-shadow: 3px 3px 4px black;
+    
+    opacity: 0.9;
+}
+
+.github:hover {
+    height: 63px;
+    width: 63px;
+    box-shadow: 3px 3px 4px black;
+    
+    opacity: 0.9;
+}
+
+.home:hover {
+    height: 63px;
+    width: 63px;
+    box-shadow: 3px 3px 4px black;
+    
+    opacity: 0.9;
+}
+
+.instagram:hover {
+    height: 63px;
+    width: 63px;
+    box-shadow: 3px 3px 4px black;
+    opacity: 0.9;
+    
+}
