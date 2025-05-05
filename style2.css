@@ -13,10 +13,31 @@ body{
 }
 
 main{
-    justify-items: end;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.imagem1{
+aside{
+    border: 1px solid black;
+    width: 0px;
+    height: 350px;
+    display: block;
+    
+}
+
+iframe{
+    /* border: 3px solid rgba(223, 13, 209, 0.952); */
+    
+    width: 269px;
+    height: 475px;
+    margin: auto;
+    
+    
+        
+}
+
+.telefone{
     background-image: url('pacote-d013/imagens/frame-iphone.png');
     background-repeat: no-repeat;
     height: 100%;
@@ -32,9 +53,9 @@ main{
     width: 52px;
     border-radius: 60%;
     background-size: cover;
-    margin-right: 2vw;
-    margin-top: 2vh;
-    margin-left: 15px;
+    margin-right: 10px;
+    margin-top: 15px;
+    margin-left: -70px;
     transition: 0.3s;
 }
 .instagram{
@@ -43,10 +64,10 @@ main{
     width: 52px;
     border-radius: 60%;
     background-size: cover;
-    margin-right: 2vw;
-    margin-top: 2vh;
-    margin-left: 15px;
-    transition: 0.3s ease; 
+    margin-right: 10px;
+    margin-top: 15px;
+    margin-left: -70px;
+    transition: 0.3s ; 
 }
 
 .youtube{
@@ -55,9 +76,9 @@ main{
     width: 52px;
     border-radius: 60%;
     background-size: cover;
-    margin-right: 2vw;
-    margin-top: 2vh;
-    margin-left: 15px;
+    margin-right: 10px;
+    margin-top: 15px;
+    margin-left: -70px;
     transition: 0.3s;
 }
 
@@ -67,9 +88,9 @@ main{
     width: 52px;
     border-radius: 60%;
     background-size: cover;
-    margin-right: 2vw;
-    margin-top: 2vh;
-    margin-left: 15px;
+    margin-right: 10px;
+    margin-top: 15px;
+    margin-left: -70px;
     transition: 0.3s;
 }
 
@@ -79,17 +100,11 @@ main{
     width: 52px;
     border-radius: 60%;
     background-size: cover;
-    margin-right: 2vw;
-    margin-top: 4vh;
-    margin-left: 15px;
+    margin-right: 10px;
+    margin-left: -70px;
     transition: 0.3s;
 }
 
-aside{
-    
-    display: inline-block;
-    padding: 2px;
-}
 .x:hover {
     height: 63px;
     width: 63px;
