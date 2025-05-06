@@ -55,8 +55,9 @@ iframe{
     background-size: cover;
     margin-right: 10px;
     margin-top: 15px;
-    margin-left: -70px;
+    margin-left: -72px;
     transition: 0.3s;
+    
 }
 .instagram{
     background: rgba(0, 0, 0, 0) url('pacote-d013/imagens/logo-instagram.jpg') center center no-repeat scroll;
@@ -66,9 +67,11 @@ iframe{
     background-size: cover;
     margin-right: 10px;
     margin-top: 15px;
-    margin-left: -70px;
+    margin-left: -72px;
     transition: 0.3s ; 
+    
 }
+
 
 .youtube{
     background: rgba(0, 0, 0, 0) url('pacote-d013/imagens/logo-youtube.jpg') center center no-repeat scroll;
@@ -78,8 +81,9 @@ iframe{
     background-size: cover;
     margin-right: 10px;
     margin-top: 15px;
-    margin-left: -70px;
+    margin-left: -72px;
     transition: 0.3s;
+    
 }
 
 .github{
@@ -90,8 +94,9 @@ iframe{
     background-size: cover;
     margin-right: 10px;
     margin-top: 15px;
-    margin-left: -70px;
+    margin-left: -72px;
     transition: 0.3s;
+   
 }
 
 .home{
@@ -101,8 +106,9 @@ iframe{
     border-radius: 60%;
     background-size: cover;
     margin-right: 10px;
-    margin-left: -70px;
+    margin-left: -72px;
     transition: 0.3s;
+   
 }
 
 .x:hover {
@@ -111,6 +117,7 @@ iframe{
     box-shadow: 3px 3px 4px black;
    
     opacity: 0.9; 
+    box-sizing: border-box;
 }
 
 .youtube:hover {
@@ -119,7 +126,8 @@ iframe{
     box-shadow: 3px 3px 4px black;
     
     opacity: 0.9;
-}
+    box-sizing: border-box;
+    }
 
 .github:hover {
     height: 63px;
@@ -127,6 +135,7 @@ iframe{
     box-shadow: 3px 3px 4px black;
     
     opacity: 0.9;
+    box-sizing: border-box;
 }
 
 .home:hover {
@@ -135,6 +144,7 @@ iframe{
     box-shadow: 3px 3px 4px black;
     
     opacity: 0.9;
+    box-sizing: border-box;
 }
 
 .instagram:hover {
@@ -142,5 +152,6 @@ iframe{
     width: 63px;
     box-shadow: 3px 3px 4px black;
     opacity: 0.9;
+    box-sizing: border-box;
     
 }
